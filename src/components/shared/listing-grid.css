@@ -1,0 +1,119 @@
+.listing-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.listing-container .listing {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.listing-container .listing .card {
+  display: flex;
+  align-items: flex-start;
+  border: 1px solid #eee;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  width: 100%;
+  margin: 1rem 0;
+  background-color: #fff;
+}
+
+.listing-container .listing .card .clickable {
+  display: flex;
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.listing-container .listing .card img {
+  width: 120px;
+  height: 150px;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.listing-container .listing .card .info {
+  flex-grow: 1;
+  margin-left: 1rem;
+}
+
+.listing-container .listing .card .info h2 {
+  margin: 0;
+  color: #000;
+}
+
+.listing-container .listing .card .info p {
+  font-size: small;
+  margin: 0.5rem 0;
+  font-weight: 500;
+}
+
+.listing-container .listing .card .info small {
+  color: #665;
+  display: -webkit-box;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  word-break: break-word;
+}
+
+.listing-container .listing .card .info .small-details {
+  color: #665;
+  font-size: small;
+  margin-top: 10px;
+}
+
+.listing-container .listing .card .info .small-details span {
+  margin-right: 10px;
+}
+
+.listing-container .listing .card .favorite {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.listing-container .listing .card .red-heart {
+  color: red;
+}
+
+
+.material-icon {
+  font-family: 'Material Icons';
+  font-size: 24px;
+  line-height: 1;
+  display: inline-block;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+.red-heart {
+  color: red;
+}
+
+
+/* Media Queries */
+@media (min-width: 400px) {
+  p {
+    font-size: medium !important;
+  }
+}
+
+@media (min-width: 570px) {
+  img {
+    height: 120px !important;
+  }
+}
+
+@media (min-width: 840px) {
+  .listing .card {
+    max-width: 640px;
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "status": "ok",
+  "message": "",
+  "items": {
+    "item_0": {
+      "titulo":
+        "Ático en carretera de les Marines a Dénia, 122, Les Bovetes-La Felicidad, Denia",
+      "precio": "780",
+      "link": "https://www.idealista.com/inmueble/95038194/",
+      "descripcion":
+        "Disponible a partir de enero de 2026! Apartamento en primera línea de playa...",
+      "habitaciones": 2,
+      "size": 60,
+      "imagenUrl":
+        "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/3e/37/bc/904647747.jpg"
+    },
+    "item_1": {
+      "titulo": "Alquiler de piso en Pg. de l Albereda, 38",
+      "precio": "1200",
+      "link": "https://www.idealista.com/inmueble/109619236/",
+      "descripcion":
+        "Luminoso apartamento con balcón, ideal para parejas o teletrabajo...",
+      "habitaciones": 1,
+      "size": 65,
+      "imagenUrl":
+        "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/a5/c4/a7/1380309721.jpg"
+    },
+    "item_2": {
+      "titulo":
+        "Piso en CL Ernesto Anastasio, 35, El Cabanyal-El Canyamelar, València",
+      "precio": "1000",
+      "link": "https://www.idealista.com/inmueble/109619227/",
+      "descripcion":
+        "Este bonito apartamento en el encantador barrio del Cabanyal te ofrece una habitación acogedora y un baño moderno, todo completamente reformado.",
+      "habitaciones": 1,
+      "size": 67,
+      "imagenUrl":
+        "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/7b/07/c7/1380309545.webp"
+    }
+  }
+}
