@@ -29,12 +29,15 @@ class LitApp extends SignalWatcher(LitElement) {
   }  
 
   firstUpdated() {
-    const outlet = this.renderRoot.querySelector('#outlet')
-    this.router = new Router(outlet).setRoutes(routes)
+    const outlet = this.renderRoot.querySelector('#outlet');
+    this.router = new Router(outlet, {
+      baseUrl: '/Real-Estate-Lint-Element-3-FrontEnd/'
+    });
+    this.router.setRoutes(routes);
 
     window.addEventListener('vaadin-router-location-changed', () => {
-      this.requestUpdate()
-    })
+      this.requestUpdate();
+    });
   }
 
   sortingIndicatorFor = (field) => computed(() => {
