@@ -1,9 +1,8 @@
 import litCss from 'vite-plugin-lit-css'
 import babel from 'vite-plugin-babel'
 
-
-export default ({ mode }) => ({
-  base: mode === 'production' ? '/Real-Estate-Lint-Element-3-FrontEnd/' : '/',
+export default {
+  base: './',
   root: '.',
   plugins: [litCss(),
     babel({
@@ -21,4 +20,4 @@ export default ({ mode }) => ({
     port: 3000,
     open: true
   }
-});
+}
