@@ -11,5 +11,5 @@ export const routes = [
   },
   { path: '', redirect: '/home' },
   { path: '/', redirect: '/home' },
-  { path: '/Real-Estate-Lint-Element-3-FrontEnd/', redirect: '/home' }
+  { path: '(.*)', redirect: '/home' }
 ]   
