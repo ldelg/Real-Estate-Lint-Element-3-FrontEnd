@@ -2,7 +2,7 @@ import litCss from 'vite-plugin-lit-css'
 import babel from 'vite-plugin-babel'
 
 export default {
-  base: '/Real-Estate-Lit-Element/',
+  base: '/Real-Estate-Lint-Element-3-FrontEnd/',
   root: '.',
   plugins: [litCss(),
    babel({
