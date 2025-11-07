@@ -1,5 +1,4 @@
 import { signal, computed } from '@lit-labs/signals'
-import { html } from 'lit'
 import { ListingService } from './listings.service.js';   
 
 export class ListingsStore {
